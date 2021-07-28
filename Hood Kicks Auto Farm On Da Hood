@@ -1,0 +1,15 @@
+while true do wait()
+    pcall(function()
+    local plr = game.Players.LocalPlayer.Character.HumanoidRootPart
+    --Main Script
+    plr.CFrame = game:GetService("Workspace").Ignored.Drop:FindFirstChild("MeshPart").CFrame
+    wait(0.3)
+    fireclickdetector(game:GetService("Workspace").Ignored.Drop:FindFirstChild("MeshPart").ClickDetector)
+    wait(0.4)
+    plr.CFrame = game:GetService("Workspace").Ignored["Clean the shoes on the floor and come to me for cash"].HumanoidRootPart.CFrame
+    wait()
+    fireclickdetector(game:GetService("Workspace").Ignored["Clean the shoes on the floor and come to me for cash"].ClickDetector)
+    wait(0.3)
+    plr.CFrame = CFrame.new(207.48085, 38.2480049, 200014.953, 0.507315397, 3.04821022e-08, -0.861760437, -3.06051575e-08, 1, 1.73547452e-08, 0.861760437, 1.75699846e-08, 0.507315397)
+    end)
+end
